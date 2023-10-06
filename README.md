@@ -52,7 +52,8 @@ Walk users through the installation process. Include code snippets and commands 
    ```https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask```
 
 
-### Screenshots
+### Screenshots 
+incase you cannot see images : https://drive.google.com/drive/folders/1af_qBWwdnFqs8hOdKIxW35jFoqiQUfqu?usp=sharing . please refer here
 ![Alt text](https://drive.google.com/file/d/1u4igRsyVb_st18lf797Ca1uNRYhOg97d/view?usp=drive_link)
 ![Alt text](https://drive.google.com/file/d/1qmvIFEQGBOEiJoiw_00SFZ1DboTbCZqG/view?usp=drive_link)
 ![Alt text](https://drive.google.com/file/d/1SGp73KD-xOGZuVWkxAAlZNvsoTUtGJiC/view?usp=drive_link)
