@@ -49,9 +49,7 @@ Walk users through the installation process. Include code snippets and commands 
 
 1. **Clone the repository:**
 
-   ```bash
-[
-](https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask)
+   ```https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask```
 
 
 ### Screenshots
