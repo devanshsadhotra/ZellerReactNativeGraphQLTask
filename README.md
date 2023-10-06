@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Project Name
 
-A catchy project name and a brief tagline or description of your project.
+Zeller geography
 
 ## Table of Contents
 
