@@ -50,8 +50,8 @@ Walk users through the installation process. Include code snippets and commands 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
-
+[
+](https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask)
 
 
 ### Screenshots
