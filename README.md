@@ -19,15 +19,16 @@ A catchy project name and a brief tagline or description of your project.
 
 ## Introduction
 
-Provide a detailed introduction to your project. Explain its purpose, goals, and the problem it solves. Share any relevant background information to give users context.
-
+This app fetches the list of continents and countries.
+This app also features search, which will search through countries or continents, whatever chosen.
+After clicking on a particular country or continent you will see more details about the country
 ## Features
 
 List and describe the key features of your project. This section helps users understand what your project can do.
 
 - **Feature 1:** This app fetches the list of continents and countries.
-- **Feature 2:** This app also features search, which will search through countires or continenets , whatever choosen.
-- **Feature 3:** After clicking on particular country or continenet you will see more details about the country
+- **Feature 2:** This app also features search, which will search through countries or continents, whatever chosen.
+- **Feature 3:** After clicking on a particular country or continent you will see more details about the country
 .
 
 ## Getting Started
@@ -42,6 +43,7 @@ List any prerequisites or system requirements that users need to meet before usi
 - Node.js (version 16+)
 - npm or yarn
 - Basic setup for react native
+-  any setup, for iOS MacBook and android can be run on any machine
 
 ### Installation
 
