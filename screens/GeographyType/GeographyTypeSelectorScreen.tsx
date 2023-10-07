@@ -14,6 +14,7 @@ type GeographyTypeSelectorScreenProps = {
 
 interface Item {
   name: string;
+  emoji:string;
 }
 
 const GeographyTypeSelectorScreen: React.FC<
@@ -69,12 +70,10 @@ const GeographyTypeSelectorScreen: React.FC<
     },
     [activeRadioBtn],
   );
-  console.log(activeRadioBtn);
 
   useEffect(() => {
     // Fetch the "Country" query data when the component mounts
     if (activeRadioBtn === STATIC_STRINGS.COUNTRY) {
-      console.log('i was called');
       refetchCountryData();
     }
   }, [activeRadioBtn]);
@@ -87,7 +86,6 @@ const GeographyTypeSelectorScreen: React.FC<
     }, 500);
     return () => clearTimeout(delay);
   }, [activeRadioBtn, handleSearchTextChange, searchText]);
-  console.log(globalCountryContinentList);
   return (
     <View style={styles.container}>
       <Text style={styles.geographyTypeText}>{STATIC_STRINGS.THE_EARTH}</Text>
@@ -121,14 +119,17 @@ const GeographyTypeSelectorScreen: React.FC<
             bounces={false}
             showsVerticalScrollIndicator={false}
             data={globalCountryContinentList}
-            renderItem={({item}) => (
+            renderItem={({ item }) => (
               <TouchableOpacity
-                key={item.name}
                 style={[styles.listItem, styles.touchableOpacity]}
                 onPress={() => {
-                  navigation.navigate('CountryDetail', {country: item});
-                }}>
-                <Text>{item.name}</Text>
+                  navigation.navigate('CountryDetail', { country: item });
+                }}
+              >
+                <View style={styles.logoContainer}>
+                  <Text style={styles.logoText}>{item.emoji ||item.name.charAt(0)}</Text>
+                </View>
+                <Text style={styles.countryName}>{item.name}</Text>
               </TouchableOpacity>
             )}
             keyExtractor={item => item.name}

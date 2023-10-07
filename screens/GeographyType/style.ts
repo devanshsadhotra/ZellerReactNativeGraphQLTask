@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {COLOR_BLACK, COLOR_LIGHT_GRAY} from '../../utils/colors';
+import {COLOR_BLACK, COLOR_LIGHT_GRAY, COLOR_PRIMARY, COLOR_SECONDARY} from '../../utils/colors';
 
 export const styles = StyleSheet.create({
   listView: {
@@ -46,10 +46,30 @@ export const styles = StyleSheet.create({
       borderBottomColor: '#ddd',
     },
     touchableOpacity: {
-      elevation: 4, // Elevation for Android
-      shadowColor: 'rgba(0, 0, 0, 0.2)', // Shadow color for iOS
-      shadowOffset: { width: 0, height: 2 }, // Shadow offset for iOS
-      shadowOpacity: 1, // Shadow opacity for iOS
-      shadowRadius: 4, // Shadow radius for iOS
+      elevation: 4,
+      shadowColor: 'rgba(0, 0, 0, 0.2)',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 1,
+      shadowRadius: 4,
+      flexDirection: 'row', // Align logo and text horizontally
+      alignItems: 'center', // Center logo and text vertically
     },
+    logoContainer: {
+      backgroundColor: COLOR_PRIMARY, // Example background color for the logo container
+      width: 50, // Adjust the size as needed
+      height: 50, // Adjust the size as needed
+     
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginRight: 12, // Add spacing between logo and text
+    },
+    logoText: {
+      fontSize: 24,
+      fontWeight: 'bold',
+      color: COLOR_SECONDARY, // Text color for the logo
+    },
+    countryName: {
+      fontSize: 18,
+    },
+  
 });
