@@ -56,12 +56,10 @@ Walk users through the installation process. Include code snippets and commands 
 
 ### Screenshots 
 incase you cannot see images : https://drive.google.com/drive/folders/1af_qBWwdnFqs8hOdKIxW35jFoqiQUfqu?usp=sharing . please refer here
-![Alt text](https://drive.google.com/file/d/1u4igRsyVb_st18lf797Ca1uNRYhOg97d/view?usp=drive_link.png)
-![Alt text](https://drive.google.com/file/d/1qmvIFEQGBOEiJoiw_00SFZ1DboTbCZqG/view?usp=drive_link.png)
-![Alt text](https://drive.google.com/file/d/1SGp73KD-xOGZuVWkxAAlZNvsoTUtGJiC/view?usp=drive_link.png)
-![Alt text](https://drive.google.com/file/d/11cZapTOhlnWSlt-uY3SmFBMy0o0gXHqq/view?usp=drive_link.png)
-![Alt text](https://drive.google.com/file/d/1Dj8C6LY8wuElALvuLuVM4-K7Hd-I4uAJ/view?usp=drive_link.png)
-![logo list](https://drive.google.com/file/d/1G6Lb9_1RngpUlRwckIsHeqbiCrpZYGU8/view?usp=drive_link.png)
+![home screen](https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask/blob/main/sample%20Images/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-10-07%20at%2016.33.06.png)
+![continent details open](https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask/blob/main/sample%20Images/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-10-07%20at%2016.37.40.png)
+![continent list](https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask/blob/main/sample%20Images/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-10-07%20at%2016.37.44.png)
+![country details open](https://github.com/devanshsadhotra/ZellerReactNativeGraphQLTask/blob/main/sample%20Images/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202023-10-07%20at%2016.37.57.png)
 
 
 # Getting Started
